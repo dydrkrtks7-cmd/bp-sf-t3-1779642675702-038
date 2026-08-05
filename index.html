@@ -27,51 +27,63 @@
 
     <!-- JSON-LD 스키마 -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "화곡 셔츠룸",
+  "description": "마포 AI 트렌드의 중심, 프리미엄 셔츠룸 라운지",
+  "url": "https://sf-t3-1779642675702-038.vercel.app/",
+  "telephone": "010-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "서울특별시",
+    "addressRegion": "마포구",
+    "addressCountry": "KR"
+  },
+  "priceRange": "₩₩₩",
+  "servesCuisine": "프리미엄 라운지",
+  "openingHours": "Mo-Su 18:00-04:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "127"
+  },
+  "review": [
     {
-        "@context": "https://schema.org",
-        "@type": "BarOrPub",
-        "name": "화곡 셔츠룸",
-        "description": "마포 AI 트렌드의 중심, 프리미엄 셔츠룸 라운지",
-        "url": "https://sf-t3-1779642675702-038.vercel.app/",
-        "telephone": "010-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "서울특별시",
-            "addressRegion": "마포구",
-            "addressCountry": "KR"
-        },
-        "priceRange": "₩₩₩",
-        "servesCuisine": "프리미엄 라운지",
-        "openingHours": "Mo-Su 18:00-04:00",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "127"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": "홍대사는개발자",
-                "datePublished": "2025-03-15",
-                "reviewBody": "AI 큐레이션이 진짜 신세계야. 내 취향을 어떻게 알았지?",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                }
-            },
-            {
-                "@type": "Review",
-                "author": "마포러버",
-                "datePublished": "2025-03-10",
-                "reviewBody": "화곡 셔츠룸 중에서 단연 최고. 분위기가 압도적이야.",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                }
-            }
-        ]
+      "@type": "Review",
+      "author": "홍대사는개발자",
+      "datePublished": "2025-03-15",
+      "reviewBody": "AI 큐레이션이 진짜 신세계야. 내 취향을 어떻게 알았지?",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "itemReviewed": {
+        "@type": "Thing",
+        "name": "화곡 셔츠룸"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "마포러버",
+      "datePublished": "2025-03-10",
+      "reviewBody": "화곡 셔츠룸 중에서 단연 최고. 분위기가 압도적이야.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "itemReviewed": {
+        "@type": "Thing",
+        "name": "화곡 셔츠룸"
+      }
     }
-    </script>
+  ]
+}
+</script>
 
     <style>
         /* CSS 리셋 */
